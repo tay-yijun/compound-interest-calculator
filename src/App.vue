@@ -1,28 +1,44 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- Header -->
+    <p>
+      <span class="md-display-1">
+        Compound Interest Calculator
+        <md-icon class="md-size-2x">trending_up</md-icon>
+      </span>
+    </p>
+
+    <!-- User Input Cards -->
+    <UserInputPrincipalAmount />
+    <UserInputYears />
+    <UserInputInterestRate />
+
+    <!-- Summary Card -->
+    <TheSummaryCard />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import UserInputYears from "./components/UserInputYears";
+import UserInputInterestRate from "./components/UserInputInterestRate";
+import UserInputPrincipalAmount from "./components/UserInputPrincipalAmount";
+import TheSummaryCard from "./components/TheSummaryCard";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    UserInputYears,
+    UserInputInterestRate,
+    UserInputPrincipalAmount,
+    TheSummaryCard
   }
-}
+};
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons");
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  padding: 25px;
 }
 </style>
