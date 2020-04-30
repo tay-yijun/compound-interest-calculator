@@ -6,7 +6,7 @@ The formula for calculating compound interest is:
 
 Compound Interest = Total amount of Principal and Interest in future (or Future Value) less Principal amount at present (or Present Value)
 
-![Compound Interest Formula](./public/compound_interest_formula.png?raw=true) 
+![Compound Interest Formula](./images/compound_interest_formula.png?raw=true) 
 
 
 ##### Technologies
