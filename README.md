@@ -1,24 +1,19 @@
 # compound-interest-calculator
 
-## Project setup
-```
-npm install
-```
+From [Investopedia](https://www.investopedia.com/terms/c/compoundinterest.asp)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+The formula for calculating compound interest is:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Compound Interest = Total amount of Principal and Interest in future (or Future Value) less Principal amount at present (or Present Value)
 
-### Lints and fixes files
-```
-npm run lint
-```
+![Compound Interest Formula](./public/compound_interest_formula.png?raw=true) 
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+##### Technologies
+
+* Vue.js
+* Vuex
+* vue-material
+* vue-slider-component
+
+This project was created using [Vue CLI](https://github.com/vuejs/vue-cli). 
