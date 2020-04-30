@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <md-card>
+  <div class="md-layout md-gutter md-alignment-center">
+    <md-card class="md-layout-item md-size-50 md-medium-size-65 md-small-size-80 md-xsmall-size-90">
       <md-card-header>
         <div class="md-title">No. of Years: {{ years.toString().padStart(2, '0') }}</div>
       </md-card-header>
